@@ -1,0 +1,9 @@
+# robots.txt for http://www.eecs.umich.edu/~chengsf/
+
+User-agent:	*
+Disallow:	/album/
+Disallow:	/album.html
+Disallow:	/mustardseed/album/
+
+
+

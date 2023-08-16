@@ -1,0 +1,111 @@
+<!--#config timefmt="%Y.%m.%d %T %a (%Z)" -->
+<!--#exec cgi="./bin/weblog.cgi" -->
+
+<html>
+<head>
+<title>Shih-Fen Cheng: Current Research: Agent Technologies in Commodity Market</title>
+<link rel="stylesheet" href="main.css" type="text/css">
+</head>
+
+<body>
+
+<h2>Shih-Fen Cheng: Current Research: Agent Technologies in Commodity Market</h2>
+<p><hr></p>
+<table>
+<tr><td valign="top">
+	<table width="150">
+		<tr><td align="left"><font size="+0"><b><a href="default.htm">Home</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="CV_sfcheng_academic.html">CV</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="research.html">Research</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="pub.html">Publications</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="teaching.html">Teaching</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="people.html">People</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="events.html">Events</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="links.html">Links</a></b></font><br></td></tr>
+	</table>
+</td><td valign="top" width=800>
+<p>Commodity trading is one of the most ancient market activities. However, compared to other popular financial instruments, the trading of commodities is probably the only few that still resist automation. One of the major reasons why automating commodity trading is difficult is the physical implications behind the act of trade. When a trade is completed, physical movement of goods must actually take place, and a great number of physical issues need to be considered besides just profit and loss in trading. This unique consideration is reflected in the fact that a wide variety of physical events would have indirect or direct impact on the dynamics of the commodity market. Added to the complexity is the fact that different commodities might have very different set of issues/events that would affect their market dynamics. As a result, it is extremely challenging to develop a generic analysis framework for studying commodities.</p>
+
+<p>In this research, we propose to adopt a simulation approach in studying commodities. With a simulation system that sufficiently describes the important features of a commodity market, we can then make progress on automating the management of a commodity supply chain. The foundation of our simulation is multi-agent-based, and combines both event-based approach and event study method for market dynamics generation and validation. In our event-based approach, the simulation is progressed by announcing news events that affect various aspects of the commodity supply chain. Upon receiving these events, market agents that play different roles, e.g., producers, consumers, and speculators, would adjust their views on the market and act accordingly. Their actions would be based on their roles, their private information, and also the event information, and collectively the market dynamics will be shaped. The generated market dynamics can then be validated by a variant of the event study method.</p>
+
+<p>The major advantage of this design is its flexibility in both scenario design (e.g., deciding properties of the target commodity and the flow of events) and market dynamics generation (in our system it could be easily changed if new market agents are introduced). This generic commodity trading simulation platform will serve as the center piece for our future research in this area. We are especially interested in the following topics:</p>
+
+<b><u>Current Topics</u></b>
+<ul>
+	<li>Multi-agent framework for commodity trading simulation.<br>
+    <i>In which we would formalize the construction of a commodity trading simulation with high fidelity.</i></li>
+	<li>Can trading be learned ? -- Evidence from a commodity trading simulation.<br>
+    <i>In which we would investigate whether it is possible to distinguish the intrinsic and extrinsic properties of a human trader. The measurement of these properties will be conducted on our trading simulation platform.</i></li>
+	<li>Human-agent interaction in an event-based trading environment.<br>
+    <i>In which we would investigate the effect of having both human and agent traders in an event-driven environment.</i></li>
+</ul>
+
+<b><u>Related Work</u></b>
+<ul>
+	<li>Yee Pin Lim and Shih-Fen Cheng.
+		Knowledge-driven autonomous commodity trading advisor,
+	<i><a href="www.fst.umac.mo/wic2012/IAT/">2012 IEEE/WIC/ACM International Conference on Intelligent Agent Technology</a> (IAT-12)</i>, to appear, Macau, December 2012.</li>
+
+	<li>Bernard Lee, Shih-Fen Cheng and Annie Koh.
+	<a href="http://ssrn.com/abstract=1701078">Would Price Limits Have Made any Difference to the 'Flash Crash' on May 6, 2010</a>, 
+	<i>Review of Futures Market</i>, <b>19</b>(Special IFM Issue): 55-93, 2011.
+		<ul>
+			<li><font size="-2">An earlier version appeared in the <em>21st Asia-Pacific Futures Research Symposium (APFRS-11)</em>, Singapore, February 2011.</font></li>
+		</ul>
+	</li>
+
+	<li>Shih-Fen Cheng.
+	Event study method for validating agent-based trading simulations,
+	<i>IEEE/WIC/ACM International Conference on Intelligent Agent Technology</a> (IAT-10)</i>, pages 465-469, Toronto, Canada, September 2010.</li>
+
+	<li>Bernard Lee, Shih-Fen Cheng, and Annie Koh. 
+	<a href="http://papers.ssrn.com/abstract=1546458">An analysis of extreme price shocks and illiquidity among systematic trend followers</a>, Review of Futures Market, <b>18</b>(4): 387-421, 2010.
+	<ul>
+		<li><font size="-2">An earlier version appeared in the <a href="http://business.kent.edu/msfe/erf/"><em>20th Asia-Pacific Futures Research Symposium</em></a><em> (APFRS-10)</em>, Hong Kong, February 2010.</font></li>
+		<li><font size="-2">This research was also presented in the R/Rmetrics Singapore Conference 2010 - Computational Topics in Finance, Singapore, February 2010 and 5th International Symposium on Financial Engineering and Risk Management, Taipei, Taiwan, June 2010.</font></li>
+	</ul>
+	</li>
+	
+	<li>Shih-Fen Cheng and Yee Pin Lim.
+	<a href="pub/iaai09-commodity-final.pdf">An agent-based commodity trading simulation</a>,
+	<i><a href="http://www.aaai.org/Conferences/IAAI/iaai09.php">Twenty-First Annual Conference on Innovative Applications of Artificial Intelligence</a> (IAAI-09)</i>, pages 72-78, Pasadena, CA, July 2009. </li>
+
+	<li>  Shih-Fen Cheng, Yee Pin Lim, and Chao-Chi Liu. 
+		<a href="pub/aamas09-commodity_demo.pdf">An agent-based commodity trading simulation</a>,
+	<i><a href="http://www.aamas09.org/">Eighth International Conference on Autonomous Agents and Multiagent Systems</a> (AAMAS-09)</i>, pages 1377-1378, Budapest, Hungary, May 2009. </li>
+
+	<li>Shih-Fen Cheng.
+	<a href="pub/cheng-CommodityTrading.pdf">Designing the market game for a commodity trading simulation</a>,
+	<i>IEEE/WIC/ACM International Conference on Intelligent Agent Technology (IAT-07)</i>, pages 445-449, San Jose, CA, November 2007.</li>
+</ul>
+</td></tr></table>
+
+<p><hr></p>
+
+<table width="1000"><tr><td align="center">
+<font size="-2">Last Modified: 
+2012-08-31
+</font>
+</td></tr></table>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=847044;
+var sc_partition=6;
+var sc_security="13a8630d";
+var sc_invisible=1;
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c7.statcounter.com/counter.php?sc_project=847044&amp;java=0&amp;security=13a8630d&amp;invisible=1" alt="web statistics" border="0"></a> </noscript><!-- End of StatCounter Code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5393002-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

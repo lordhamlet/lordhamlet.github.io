@@ -1,0 +1,67 @@
+<!--#config timefmt="%Y.%m.%d %T %a (%Z)" -->
+<!--#exec cgi="./bin/weblog.cgi" -->
+<html>
+<head>
+<title>Multidimensional Knapsack Problem</title>
+<link rel="stylesheet" href="http://www.mysmu.edu/faculty/sfcheng/main.css" type="text/css">
+</head>
+
+<body>
+
+<h1>Multidimensional Knapsack Problem</h2>
+
+<h3>Problem Statement</h3>
+<p>Description on the problem : <a href="mkp_desc.pdf">pdf</a></p>
+<!--<p>Description on the data instance : <a href="mkp_data_desc.pdf">pdf</a></p>-->
+
+<h3>Random Instance Generator</h3>
+<p>Download (Windows binary): <a href="genPref2.zip">genPref2.zip</a></p>
+<p>Download (source): <a href="genPref2.tar.gz">genPref2.tar.gz</a></p>
+
+<p>The random instance generator is constructed following Bertsimas and Demir (2002). The usage
+is as follows:</p>
+
+<CODE>usage: genPref2 &lt;number of resources&gt; &lt;number of tasks&gt; &lt;A&gt; &lt;C&gt; &lt;mode&gt; &lt;tightness constant&gt; &lt;common name&gt;</CODE>
+
+<p>&lt;A&gt; and &lt;C&gt; stand for the upper bound for the resource requirement and task value respectively. &lt;mode&gt; is either 0 or 1, indicating whether the resource requirements and capacities are correlated or not. &lt;tightness constant&gt; is a real number less than 1, indicating how tight the knapsack constraints are, the smaller it is, the tighter the constraint. Problem would be much harder for these tighter cases (or the solution might not even exist).</p>
+
+<h3>Reference</h3>
+<ul>
+	<li>Dimitris Bertsimas and Ramazan Demir. <a href="Bertsimas02.PDF">An approximate dynamic programming approach to multidimensional knapsack problems</a>. Management Science, 48(4):550-565, 2002.</li>
+	<li>P. C. Chu and J. E. Beasley. <a href="ChuB98.PDF">A genetic algorithm for the multidimensional knapsack problem</a>. Journal of Heuristics, 4(1):63-86, 1998.</li>
+	<li>Said Hanafi and Arnaud Freville. <a href="HanafiF98.PDF">An efficient tabu search approach for the 0-1 multidimensional knapsack problem</a>. European Journal of Operational Research, 106(2-3):659-675, April 1998.</li>
+</ul>
+
+<hr size=2>
+
+<center>
+<font size=-2>Last Modified: 
+<script type="text/javascript">
+document.write(document.lastModified)
+</script>
+</font><br><br>
+</center>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=847044; 
+var sc_partition=6; 
+var sc_security="13a8630d"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c7.statcounter.com/counter.php?sc_project=847044&amp;java=0&amp;security=13a8630d&amp;invisible=1" alt="web statistics" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5393002-1");
+pageTracker._trackPageview();
+</script>
+
+</body>           
+
+</html>
