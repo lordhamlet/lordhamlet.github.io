@@ -1,0 +1,166 @@
+<!--#config timefmt="%Y.%m.%d %T %a (%Z)" -->
+<!--#exec cgi="./bin/weblog.cgi" -->
+
+<html>
+<head>
+<title>Shih-Fen Cheng: Research: Driver Guidance System (DGS) for Taxi Drivers</title>
+<link rel="stylesheet" href="../../main.css" type="text/css">
+</head>
+
+<body>
+
+<h2>Shih-Fen Cheng: Research: Driver Guidance System (DGS) for Taxi Drivers</h2>
+<p><hr></p>
+<table>
+<tr><td valign="top">
+	<table width="150">
+		<tr><td align="left"><font size="+0"><b><a href="../../default.htm">Home</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../CV_sfcheng_academic.html">CV</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../research.html">Research</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../pub.html">Publications</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../teaching.html">Teaching</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../people.html">People</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../events.html">Events</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../links.html">Links</a></b></font><br></td></tr>
+	</table>
+</td><td valign="top" width=800>
+
+	<center>
+	<iframe width="800" height="450" src="https://www.youtube.com/embed/NEoG5oYRB_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+	<!------------------------------------------->
+	<a name="background"></a><h3>Background</h3>
+	<p>Uber and Uber-like services have been rocking the taxi industry globally for the past few years. Traditional taxi companies have been slow in responding to these challenges. The development of the DGS technology aims to help taxi drivers to compete against ride-hailing technologies by providing guidance to an area with predicted demand (i.e., actionable driving decision) that would help drivers shorten their vacant cruising time before finding the next passenger.
+
+	<p>The key enabling technology behind the development of the DGS is the stream data processing, demand prediction, and personalized decision support system.</p>
+	<center>
+	<img src="dgs_arch.jpg" width="600">
+	<p><b>Figure 1: The Architecture of DGS.</b></p>
+	</center>
+
+	<!------------------------------------------->
+	<a name="dgs_app"></a><h3>The DGS App</h3>
+	<p>The technology is delivered via a smartphone App. The DGS App is designed to be hands-free; as drivers drive around, the App will automatically provide the best recommendations for individual drivers depending on their respective locations.</p>
+	<center>
+	<img src="dgs_app.jpg" width="600">
+	<p><b>Figure 2: The DGS App.</b></p>
+	</center>
+
+	<!------------------------------------------->
+	<a name="dgs_sim"></a><h3>Simulated Performance Evaluation</h3>
+	<p>The expected performance of DGS App is evaluated a massive scale <a href="https://ink.library.smu.edu.sg/sis_research/1405/">agent-based simulation</a>. As shown in Figure 3 below, the personalized guidance ensures that DGS stays competitive even when the adoption ratio increases.</p>
+	<center>
+	<img src="dgs_perf_sim.jpg" width="600">
+	<p><b>Figure 3: DGS performance (average trips) in response to adoption ratio.</b></p>
+	</center>
+	
+
+	<!------------------------------------------->
+	<a name="dgs_perf"></a><h3>Field Trial Results</h3>
+	<p>The DGS is field tested in Singapore from 2017 to 2018. In total we have recruited 500 taxi drivers to try DGS. On average, following DGS guidance results in <b>34%</b> reduction in vacant roaming time.</p>
+	
+	<p>The reduction in the vacant roaming time is particularly evident when the demand levels are low (e.g., from 11pm to 5am in Figure 4). We also track the performance of DGS across Singapore, and the improvements are universal (Figure 5).</p>
+	<center>
+	<img src="dgs_perf.jpg" width="700">
+	<p><b>Figure 4: The performance (average vacant roaming time) of DGS vs. non-DGS trips at different hours of the day. The bars at the bottom correspond to the demand level. The value of guidance is particularly evident when the demands are low.</b></p>
+	</center>
+
+	<center>
+	<img src="dgs_perf_map.jpg" width="700">
+	<p><b>Figure 5: The performance (average vacant roaming time) of DGS vs. non-DGS trips at different regions across Singapore.</b></p>
+	</center>
+
+	<p>Finally, we also breakdown the performance of DGS by demand channels such as "street hail" or "booking". We can see that while the booking channel indeed helps drivers in reducing their vacant roaming time (from ~13min to 9min), having personalized guidance still helps in further bringing down the vacant roaming time by ~24%.</p>
+
+	<p>Furthermore, after accounting for the "response time" (i.e., the time between driver's commitment to the job and the passenger pick-up), we can see that the street-hail channel with DGS can be even more efficient than the booking channel (35% vacant vs. 43% vacant).</p>
+	<center>
+	<img src="dgs_perf_table.jpg" width="700">
+	<p><b>Figure 6: The performance (average vacant roaming time) of DGS vs. non-DGS trips at different regions across Singapore.</b></p>
+	</center>
+
+	The DGS has also been commercially tested in Tokyo, Japan in April 2020. With dedicated taxi drivers hired to follow DGS exclusively, we observe that DGS-guided drivers experienced 12% less vacant time than non-DGS drivers.
+
+	<br/><br/><br/>
+
+	<!------------------------------------------->
+	<a name="pub"></a><h3>Related Publication</h3>
+	<ul>
+	<li>Shih-Fen Cheng, Shashi Shekhar Jha, and Rishikeshan Rajendram.
+		<a href="https://ink.library.smu.edu.sg/sis_research/4117/">Taxis strike back: A field trial of the driver guidance system</a>,
+		<i><a href="http://celweb.vuse.vanderbilt.edu/aamas18/">Seventeenth International Conference on Autonomous Agents and Multiagent Systems</a> (AAMAS-18)</i>, pages 577-584, Stockholm, Sweden, July 2018.
+
+	<li>Shashi Shekhar Jha, Shih-Fen Cheng, Meghna Lowalekar, Nicholas Wong Wai Hin, Rishikeshan Rajendram, Tran Trong Khiem, Pradeep Varakantham, Truong Trong Nghia and Firmansyah Rahman.
+		<a href="https://ink.library.smu.edu.sg/sis_research/3952/">Upping the game of taxi driving in the age of Uber</a>,
+		<i><a href="https://aaai.org/Conferences/AAAI-18/iaai-18/">Thirtieth Annual Conference on Innovative Applications of Artificial Intelligence</a> (IAAI-18)</i>, pages 7779--7785, New Orleans, Louisiana, USA, February 2018.</li>
+
+	<li>Asrar Ahmed, Pradeep Varakantham, and Shih-Fen Cheng.
+		<a href="https://ink.library.smu.edu.sg/sis_research/1568/">Uncertain congestion games with assorted human agent populations</a>, 
+		<em><a href="http://www.auai.org/uai2012/">Twenty-Eighth Conference on Uncertainty in Artificial Intelligence</a></em> (<em>UAI-12</em>), pages 44-53, California, USA, August 2012.</li>
+
+	<li>Pradeep Varakantham, Shih-Fen Cheng, Geoff Gordon, and Asrar Ahmed.
+		<a href="https://ink.library.smu.edu.sg/sis_research/1567/">Decision support for agent populations in uncertain and congested environments</a>, 
+		<em><a href="http://www.aaai.org/Conferences/AAAI/aaai12.php">Twenty-Sixth AAAI Conference on Artificial Intelligence</a></em> (<em>AAAI-12</em>), pages 1471-1477, Toronto, Canada, July 2012.</li>
+
+	<li>Shih-Fen Cheng and Thi Duong Nguyen.
+		<a href="https://ink.library.smu.edu.sg/sis_research/1405/">TaxiSim: A multiagent simulation platform for evaluating taxi fleet operations</a>,	<i><a href="http://liris.cnrs.fr/~wi-iat11/IAT_2011/">2011 IEEE/WIC/ACM International Conference on Intelligent Agent Technology</a> (IAT-11)</i>, pages 14-21, Lyon, France, August 2011.</li>
+
+	</ul>
+
+	<!------------------------------------------->
+	<a name="pub"><h3>Awards and Recognition</h3>
+	<ul>
+	<li>Finalist, <a href="https://pubsonline.informs.org/do/10.1287/LYTX.2020.01.26n/full/">INFORMS Innovative Applications in Analytics Award (IAAA)</a>: Driver Guidance System for Taxi Drivers, 2020.</li>
+
+	<li>Best Application Demo: <a href="../../pub/2018/dgs-aamas18-demo.pdf">A Driver Guidance System for Taxis in Singapore</a>, <a href="http://celweb.vuse.vanderbilt.edu/aamas18/">Seventeenth International Conference on Autonomous Agents and Multiagent Systems (AAMAS-18)</a>, 2018.</li>
+
+	<li>First Prize, <a href="http://www.cikmconference.org/CIKM2017/analytiCupfinals_winners.html">CIKM AnalytiCup: DataSpark Mobility Open-Task Challenge</a>: <a href="http://www.cikmconference.org/CIKM2017/download/analytiCup/session2/CIKMAnalytiCup2017_DataSparkMobility_T10.pdf">Predicting Taxi Demand-Supply Mismatches to Dynamically Position Mobility-on-Demand Services</a>, <a href="http://www.cikmconference.org/CIKM2017/index.html">Twenty-Sixth ACM International Conference on Information and Knowledge Management (CIKM-17)</a>, 2017.</li>
+	</ul>
+
+	<!------------------------------------------->
+	<a name="media"><h3>Media</h3>
+	<ul>
+	<li>
+		<!-- <a href="commentary-CNA-2019.html"> -->
+	<a href="https://web.archive.org/web/20190205010218/https://www.channelnewsasia.com/news/commentary/singapore-taxi-industry-ride-hailing-apps-driver-guidance-system-11133266">Commentary: Shortening the waiting time for your cab with a driver guidance system</a>, Channel News Asia, February 5, 2019.</li>
+
+	<li><a href="http://str.sg/o5ad">New app can direct cabbies to areas of high demand</a>, Straits Times, February 27, 2018.</li>
+
+	<li><a href="https://mediacast.smu.edu.sg/media/400+taxi+drivers+involved+in+SMU+pilot+project+to+help+them+find+passengers+faster/1_8n1233g0">400 taxi drivers involved in SMU pilot project to help them find passengers faster</a>, Channel 8 News, January 29, 2018.</li>
+
+	<li>SMU Podcast: <a href="https://engage.smu.edu.sg/improving-taxi-fleet-efficiency-singapore">Improving taxi fleet efficiency in Singapore</a>.</li>
+	</ul>
+
+</td></tr></table>
+
+<p><hr></p>
+
+<table width="1000"><tr><td align="center">
+<font size="-2">Last Modified: 
+<script type="text/javascript">
+document.write(document.lastModified)
+</script>
+</font>
+</td></tr></table>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=847044;
+var sc_partition=6;
+var sc_security="13a8630d";
+var sc_invisible=1;
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c7.statcounter.com/counter.php?sc_project=847044&amp;java=0&amp;security=13a8630d&amp;invisible=1" alt="web statistics" border="0"></a> </noscript><!-- End of StatCounter Code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5393002-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>

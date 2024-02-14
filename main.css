@@ -3,7 +3,7 @@ body
 background-color: #ffffff;
 color: #000000;
 font-family: Verdana, Arial, Helvetica, sans-serif;
-font-size: 10pt
+font-size: 12pt
 }
 
 a:link { color: #003399 ; background-color: transparent } 
@@ -11,27 +11,27 @@ a:visited {color: #CC9900 ; background-color: transparent }
 a:active {color: #0099FF ; background-color: transparent }
 a:hover {color: #6699FF ; background-color: transparent }
 
-p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; margin-bottom:8px }
+p { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; margin-bottom:8px }
 
-ol { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+ol { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
-ul { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt ; list-style: circle outside }
+ul { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt ; list-style: circle outside }
 
-ul ul { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt ; list-style: square outside }
+ul ul { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt ; list-style: square outside }
 
-li { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; margin-bottom:8px}
+li { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt; margin-bottom:8px}
 
-dl { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+dl { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
-dt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+dt { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
-dd { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+dd { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
-table { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+table { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
-th { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+th { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
-td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+td { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
 H1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 18pt }
 
@@ -44,16 +44,16 @@ H4, H5, H6 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt
 
 H1.pageTitleHeader { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14pt }
 
-H1.workspaceTitleHeader { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+H1.workspaceTitleHeader { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 
 
-.content { font: 10pt/12pt Verdana, Arial, Helvetica, sans-serif; text-indent: 1.5em; text-align: left }
+.content { font: 12pt/12pt Verdana, Arial, Helvetica, sans-serif; text-indent: 1.5em; text-align: left }
 
-.plain { font: 10pt/12pt Verdana, Arial, Helvetica, sans-serif }
+.plain { font: 12pt/12pt Verdana, Arial, Helvetica, sans-serif }
 
-.alert { font: 10pt/12pt Verdana, Arial, Helvetica, sans-serif ; color: #990000 ; background-color: transparent }
+.alert { font: 12pt/12pt Verdana, Arial, Helvetica, sans-serif ; color: #990000 ; background-color: transparent }
 
-.emph { font: bold 10pt/12pt Verdana, Arial, Helvetica, sans-serif ;  }
+.emph { font: bold 12pt/12pt Verdana, Arial, Helvetica, sans-serif ;  }
 
 .lowerleftnav { font: 8pt Verdana, Arial, Helvetica, sans-serif ; }
 a.lowerleftnav:link { color: #000000 ; background-color: transparent }
@@ -64,7 +64,7 @@ a.lowerleftnav:hover { color: #000099 ; background-color: transparent }
 a.trimbotnav:link { color: #ffffff ; background-color: transparent }
 a.trimbotnav:visited { color: #ffffff ; background-color: transparent }
 
-.footer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
-.biglist { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt }
+.footer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
+.biglist { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12pt }
 .smallish { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt }
-.monoset { font: 8pt/10pt monospace; text-align: left }
+.monoset { font: 8pt/12pt monospace; text-align: left }

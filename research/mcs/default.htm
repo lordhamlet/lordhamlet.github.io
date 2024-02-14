@@ -1,0 +1,160 @@
+<!--#config timefmt="%Y.%m.%d %T %a (%Z)" -->
+<!--#exec cgi="./bin/weblog.cgi" -->
+
+<html>
+<head>
+<title>Shih-Fen Cheng: Research: Predictive Mobile Crowdsourcing</title>
+<link rel="stylesheet" href="../../main.css" type="text/css">
+</head>
+
+<body>
+
+<h2>Shih-Fen Cheng: Research: Predictive Mobile Crowdsourcing</h2>
+<p><hr></p>
+<table>
+<tr><td valign="top">
+	<table width="150">
+		<tr><td align="left"><font size="+0"><b><a href="../../default.htm">Home</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../CV_sfcheng_academic.html">CV</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../research.html">Research</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../pub.html">Publications</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../teaching.html">Teaching</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../people.html">People</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../events.html">Events</a></b></font></td></tr>
+		<tr><td align="left"><font size="+0"><b><a href="../../links.html">Links</a></b></font><br></td></tr>
+	</table>
+</td><td valign="top" width=900>
+
+	<center>
+	<!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/NEoG5oYRB_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+</center>
+
+	<!------------------------------------------->
+	<!-- <a name="background"></a><h3>Background</h3> -->
+	<p>Mobile crowdsourcing allows workers to flexibly perform location-specific tasks and receive compensation. For this to work, workers must have GPS-equipped smartphones and other sensors (e.g., camera or microphone, depending on the task type). Notable examples that follow this paradigm include: package delivery (e.g., Amazon Flex), ride-hailing (e.g., Uber, Grab), marketing audit (e.g., Field Agent, Gigwalk), food delivery (e.g., DoorDash, Deliveroo), and grocery delivery (e.g., Instacart, Amazon Fresh).</p>
+
+	<p>Traditional approach for task allocation either relies on independent worker's choices or centralized allocations using proximity-driven criterion. Therefore, the major research question we would want to answer is: Can we make mobile crowdsourcing more efficient by utilizing insights into worker's movement patterns or behavioral preferences?</p>
+
+	We pioneered a <b>push-based</b> approach for MCS, in which the MCS platform utilize learned worker trajectory patterns to maximize task completion while minimize worker detour [<a href="https://ink.library.smu.edu.sg/sis_research/2254/" target="_blank">1</a>, <a href="https://ink.library.smu.edu.sg/sis_research/2815/" target="_blank">2</a>]. The prototype of our idea, Ta$ker, is field-tested on the SMU campus for 3+ years, with 1000+ participating students and 100,000 tasks completed [<a href="https://ink.library.smu.edu.sg/sis_research/3181/" target="_blank">3</a>]. Through extensive randomized experiment with both push-based and pull-based approaches, and various ideas in MCS applications, we have the following findings:
+	<ol>
+		<li>The push-based approach completes 56% more tasks with 30% less worker detour, and workers tend to accept tasks more in advance [<a href="https://ink.library.smu.edu.sg/sis_research/3181/" target="_blank">3</a>].</li>
+
+		<li>Among super agents (workers who devote the most amount of time), push-based super agents is 25% more efficient than the pull-based super agents [<a href="https://ink.library.smu.edu.sg/sis_research/3181/" target="_blank">3</a>].</li>
+
+		<li>Density-based adaptive pricing can help to achieve more uniform task completion across locations and fairer user reward distribution [<a href="https://ink.library.smu.edu.sg/sis_research/3361/" target="_blank">4</a>].</li>
+
+		<li>When allocating tasks in bundles, workers are more productive in time, earn more per minute, and incur lower detours [<a href="https://ink.library.smu.edu.sg/sis_research/3361/" target="_blank">4</a>].</li>
+
+		<li>Protect worker's location privacy by the development of obfuscation strategies. With careful design, we can protect worker's privacy with only minor impact on the overall productivity [<a href="https://ink.library.smu.edu.sg/sis_research/3976/" target="_blank">6</a>].</li>
+	</ol>
+
+
+	<br/><br/><br/>
+
+	<!------------------------------------------->
+	<a name="pub"></a><h3>Related Publication</h3>
+	<ol>
+	<li>Cen Chen, Shih-Fen Cheng, Aldy Gunawan, Archan Misra, Koustuv Dasgupta, and Deepthi Chander.
+		<a href="https://ink.library.smu.edu.sg/sis_research/2254/">TRACCS: A framework for trajectory-aware coordinated urban crowd-sourcing</a>, 
+		<em><a href="http://www.humancomputation.com/2014/">Second AAAI Conference on Human Computation and Crowdsourcing</a></em> (<em>HCOMP-14</em>), pages 30-40, Pittsburgh, PA, USA, November 2014.</li>
+
+	<li>Cen Chen, Shih-Fen Cheng, Hoong Chuin Lau, and Archan Misra.
+		<a href="https://ink.library.smu.edu.sg/sis_research/2815/">Towards city-scale mobile crowdsourcing: Task recommendations under trajectory uncertainties</a>, 
+		<em><a href="http://ijcai-15.org/">Twenty-Fourth International Joint Conference on Artificial Intelligence</a></em> (<em>IJCAI-15</em>), pages 1113-1119, Beunos Aires, Argentina, July 2015.</li>
+
+	<li>Thivya Kandappu, Archan Misra, Shih-Fen Cheng, Nikita Jaiman, Randy Tandriansyah, Cen Chen, Hoong Chuin Lau, Deepthi Chander, and Koustuv Dasgupta.
+		<a href="https://ink.library.smu.edu.sg/sis_research/3181/">Campus-scale mobile crowd-tasking: Deployment and behavioral insights</a>, 
+		<em><a href="http://cscw.acm.org/2016/">Nineteenth ACM Conference on Computer-Supported Cooperative Work and Social Computing</a></em> (<em>CSCW-16</em>), to appear, San Francisco, CA, USA, February 2016.
+		<ul>
+			<li><font size="-1">Honorable mention for the best paper award (top 5% of all papers).</font></li>
+		</ul>
+	</li>
+
+	<li>Thivya Kandappu, Nikita Jaiman, Randy Tandriansyah, Archan Misra, Shih-Fen Cheng, Cen Chen, Hoong Chuin Lau, Deepthi Chander, and Koustuv Dasgupta.
+		<a href="https://ink.library.smu.edu.sg/sis_research/3361/">TASKer: Behavioral insights via campus-based experimental mobile crowd-sourcing</a>,
+		<em><a href="http://ubicomp.org/ubicomp2016/">2016 ACM International Joint Conference on Pervasive and Ubiquitous Computing</a></em> (<em>UbiComp-16</em>), to appear, Heidelberg, Germany, September 2016.
+	</li>	
+
+	<li>Thivya Kandappu, Archan Misra, Shih-Fen Cheng, and Hoong Chuin Lau.
+		<a href="https://ink.library.smu.edu.sg/sis_research/3630/">Privacy in context-aware mobile crowdsourcing systems</a>,
+		<i><a href="http://casper2017.uns.ac.rs/">Fourth International Workshop on Crowd Assisted Sensing, Pervasive Systems and Communications</a> (CASPer 2017), in conjunction with 15th IEEE International Conference on Pervasive Computing and Communications (PerCom 2017)</i>, Kona, Big Island, Hawaii, USA, March 2017.</li>
+
+	<li>Thivya Kandappu, Archan Misra, Shih-Fen Cheng, Randy Tandriansyah, and Hoong Chuin Lau.
+		<a href="https://ink.library.smu.edu.sg/sis_research/3976/">Obfuscation at-source: Privacy in context-aware mobile crowd-sourcing</a>.
+		<i>Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies</i>, <b>2</b>(1): 16, 2018.
+		<ul>
+			<li><font size="-1">This paper was presented at the <i>UbiComp 2018</i>.</font></li>
+		</ul>
+	</li>
+
+	<li>Shih-Fen Cheng, Cen Chen, Thivya Kandappu, Hoong Chuin Lau, Archan Misra, Nikita Jaiman, Randy Tandriansyah, and Desmond Koh.
+		<a href="https://ink.library.smu.edu.sg/sis_research/3888/">Scalable urban mobile crowdsourcing: Handling uncertainty in worker movement</a>,
+		<i><a href="https://dl.acm.org/journal/tist">ACM Transactions on Intelligent Systems and Technology</a></i>, <b>9</b>(3): 26, 2018.
+	</li>
+
+	<li>Chung-Kyun Han, Archan Misra, and Shih-Fen Cheng.
+		<a href="https://ink.library.smu.edu.sg/sis_research/4263/">Mobility-driven BLE transmit-power adaptation for participatory data muling</a>,
+		<i><a href="">IEEE Twenty-Fourth International Conference on Parallel and Distributed Systems</a> (ICPADS-18)</i>, pages 962--971, Singapore, December 2018.</li>
+
+
+	<li>Thivya Kandappu, Abhinav Mehrotra, Archan Misra, Mirco Musolesi, Shih-Fen Cheng, and Lakmal Buddika Meegahapola.
+		<a href="https://ink.library.smu.edu.sg/sis_research/5109/">PokeME: Applying context-driven notifications to increase worker engagement in mobile crowd-sourcing</a>,
+		<i><a href="https://sigir.org/chiir2020/">Fifth ACM SIGIR Conference on Human Information Interaction and Retrieval</a> (CHIIR-20)</i>, Vancouver, Canada (Virtual), March 2020.</li>
+
+	<li>Chung-kyun Han and Shih-Fen Cheng.
+		<a href="https://ink.library.smu.edu.sg/sis_research/5175/">An exact single-agent task selection algorithm for the crowdsourced logistics</a>,
+		<i><a href="https://www.ijcai20.org/">29th International Joint Conference on Artificial Intelligence and the 17th Pacific Rim International Conference on Artificial Intelligence</a> (IJCAI-2020)</i>, Yokohama, Japan (Virtual), July 2020.</li>
+
+	<li>Chung-Kyun Han and Shih-Fen Cheng.
+		<a href="https://ink.library.smu.edu.sg/sis_research/6210/">A Lagrangian column generation approach for the probabilistic crowdsourced logistics planning</a>,
+		<i><a href="https://case2021.sciencesconf.org/">2021 IEEE 17th International Conference on Automation Science and Engineering</a> (CASE-2021)</i>, Lyon, France (Virtual), August 2021.</li>
+
+	</ol>
+
+	<!------------------------------------------->
+	<a name="pub"><h3>Awards and Recognition</h3>
+	<ul>
+	<li>Honorable Mention, Best of CSCW Award: <a href="https://ink.library.smu.edu.sg/sis_research/3181/">Campus-scale mobile crowd-tasking: Deployment and behavioral insights</a>, <a href="http://cscw.acm.org/2016/">Nineteenth ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW-16)</a>, 2016.</li>
+	</ul>
+
+	<!------------------------------------------->
+	<a name="media"><h3>Media</h3>
+	<ul>
+		<li><a href="https://www3.nhk.or.jp/nhkworld/nhknewsline/backstories/thinkingoutside/">Thinking outside the box: innovative solutions for the package delivery industry</a>, NHK World, November 19, 2018.</li>
+
+	  <li><a href="https://www3.nhk.or.jp/nhkworld/en/news/videos/20181108110701701/">Pass the parcel (crowd-sourced logistics)</a>, NHK World, November 8, 2018.</li>
+	</ul>
+
+</td></tr></table>
+
+<p><hr></p>
+
+<table width="1000"><tr><td align="center">
+<font size="-2">Last Modified: 
+<script type="text/javascript">
+document.write(document.lastModified)
+</script>
+</font>
+</td></tr></table>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=847044;
+var sc_partition=6;
+var sc_security="13a8630d";
+var sc_invisible=1;
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c7.statcounter.com/counter.php?sc_project=847044&amp;java=0&amp;security=13a8630d&amp;invisible=1" alt="web statistics" border="0"></a> </noscript><!-- End of StatCounter Code -->
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-5393002-1");
+pageTracker._trackPageview();
+</script>
+
+</body>
+</html>
