@@ -1,9 +1,7 @@
-# robots.txt for http://www.eecs.umich.edu/~chengsf/
+---
+permalink: /robots.txt
+---
+User-agent: *
+Disallow:
 
-User-agent:	*
-Disallow:	/album/
-Disallow:	/album.html
-Disallow:	/mustardseed/album/
-
-
-
+Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
